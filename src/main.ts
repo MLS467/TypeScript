@@ -1,10 +1,18 @@
-// import * as teste from './modules/tiposSimples.ts'
-// import * as teste2 from './modules/tiposEspeciais.ts'
-import { novoItemColorido } from "./modules/Interfaces.ts"
+import * as function_ from "./modules/Funcoes.ts"
 
-// console.log(teste2.myVariable); // 42
-// console.log(teste2.myAnyVariable); // []
-// console.log(teste2.myUnknownVariable); // 50
-// console.log(teste2.convertion.length); // 11
+console.log('====================================');
+console.log(function_.getHourNow());
+console.log('====================================');
 
-console.table(novoItemColorido)
+
+console.log('====================================');
+console.log(function_.soma(10, 20));
+console.log('====================================');
+
+console.log('====================================');
+console.log(function_.somaTresValores(10, 20, 30));
+console.log('====================================');
+
+console.log('====================================');
+console.log(function_.somaTresValores(10, 20));
+console.log('====================================');
